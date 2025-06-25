@@ -49,6 +49,7 @@ components:
       - name: videos
         label: Videos
         type: block
+        list: true
         blocks:
           - name: video
             label: Video
