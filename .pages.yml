@@ -1,13 +1,26 @@
 content:
+  - name: modular
+    label: Modular Pages
+    type: collection
+    path: src
+    format: raw
+    filename: "{slug}.webc"
+    fields:
+      - name: slug
+        title: Slug
+        type: string
   - name: videos
     label: Videos
     type: collection
     path: src/_data/videos
     format: yaml
-    filename: "{title}.yml"
+    filename: "{slug}.yml"
     fields:
       - name: title
         label: Title
+        type: string
+      - name: slug
+        label: Slug
         type: string
       - name: url
         label: URL
