@@ -3,3 +3,4 @@ content:
     label: Videos
     type: collection
     path: src/_data/videos
+    format: yaml
