@@ -1,3 +1,13 @@
 ---
+title: Startseite
 slug: index
+blocks:
+  - _block: hero
+    videos:
+      - _block: video
+        reference: src/_data/videos/sin-city.yml
+      - _block: video
+        reference: src/_data/videos/rockin-man.yml
+      - _block: video
+        reference: src/_data/videos/whats-used-to-feel-good.yml
 ---
