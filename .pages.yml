@@ -4,18 +4,20 @@ content:
     type: collection
     path: src
     format: yaml-frontmatter
-    filename: "{slug}.webc"
+    filename: "{primary}.webc"
     subfolders: false
     fields:
       - name: slug
         label: Slug
         type: string
+    view:
+      primary: slug
   - name: videos
     label: Videos
     type: collection
     path: src/_data/videos
     format: yaml
-    filename: "{slug}.yml"
+    filename: "{primary}.yml"
     fields:
       - name: title
         label: Title
@@ -29,3 +31,5 @@ content:
       - name: date
         label: Date Uploaded
         type: date
+    view:
+      primary: slug
