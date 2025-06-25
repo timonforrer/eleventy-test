@@ -61,4 +61,6 @@ components:
         label: Video
         type: reference
         options:
+          search: "{title}"
+          label: "{title}"
           collection: videos
