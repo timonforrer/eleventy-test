@@ -3,7 +3,7 @@ content:
     label: Modular Pages
     type: collection
     path: src
-    format: raw
+    format: yaml-frontmatter
     filename: "{slug}.webc"
     subfolders: false
     fields:
