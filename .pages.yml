@@ -59,4 +59,5 @@ components:
         label: Video
         type: reference
         options:
+          search: title
           collections: videos
