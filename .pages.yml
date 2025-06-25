@@ -10,6 +10,13 @@ content:
       - name: slug
         label: Slug
         type: string
+      - name: blocks
+        label: Blocks
+        type: block
+        blocks:
+          - name: hero
+            label: Hero
+            component: hero
     view:
       primary: slug
   - name: videos
