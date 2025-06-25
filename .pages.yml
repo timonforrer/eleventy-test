@@ -52,4 +52,4 @@ components:
         options:
           search: title
           label: title
-          collection: video
+          collection: videos
