@@ -18,15 +18,6 @@ content:
           - name: hero
             label: Hero
             component: hero
-      - name: video
-        label: Hero
-        type: object
-        fields:
-          - name: video
-            label: Video
-            type: reference
-            options:
-              collections: videos
     view:
       primary: slug
   - name: videos
@@ -59,6 +50,6 @@ components:
         label: Video
         type: reference
         options:
-          search: slug
-          label: slug
-          collections: modular
+          search: title
+          label: title
+          collection: video
