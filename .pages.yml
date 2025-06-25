@@ -4,3 +4,8 @@ content:
     type: collection
     path: src/_data/videos
     format: yaml
+    filename: "{title}.md"
+    fields:
+      - name: title
+        label: Title
+        type: string
