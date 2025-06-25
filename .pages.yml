@@ -60,4 +60,5 @@ components:
         type: reference
         options:
           search: title
+          label: title
           collections: videos
