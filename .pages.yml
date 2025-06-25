@@ -33,3 +33,20 @@ content:
         type: date
     view:
       primary: slug
+components:
+  hero:
+    label: Hero
+    type: object
+    fields:
+      - name: videos
+        label: Videos
+        type: block
+        blocks:
+          - name: video
+            label: Video
+            fields:
+            - name: reference
+              label: Reference
+              type: reference
+              options:
+                collections: videos
