@@ -1,0 +1,5 @@
+---
+layout: "layout-base.webc"
+---
+
+<div @text="console.log(videos)"></div>
