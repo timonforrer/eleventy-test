@@ -59,6 +59,6 @@ components:
         label: Video
         type: reference
         options:
-          search: title
-          label: title
-          collections: videos
+          search: slug
+          label: slug
+          collections: modular
