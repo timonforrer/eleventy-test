@@ -5,6 +5,7 @@ content:
     path: src
     format: raw
     filename: "{slug}.webc"
+    subfolders: false
     fields:
       - name: slug
         label: Slug
