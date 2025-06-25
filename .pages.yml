@@ -13,5 +13,5 @@ content:
         label: URL
         type: string
       - name: date
-        label: Release Date
+        label: Date Uploaded
         type: date
