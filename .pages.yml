@@ -7,7 +7,7 @@ content:
     filename: "{slug}.webc"
     fields:
       - name: slug
-        title: Slug
+        label: Slug
         type: string
   - name: videos
     label: Videos
