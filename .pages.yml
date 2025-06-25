@@ -46,10 +46,19 @@ components:
     label: Hero
     type: object
     fields:
-      - name: video
+      - name: videos
+        label: Videos
+        type: block
+        blocks:
+          - name: video
+            label: Video
+            component: videoReference
+  videoReference:
+    label: Video
+    type: object
+    fields:
+      - name: reference
         label: Video
         type: reference
         options:
-          search: "{title}"
-          label: "{title}"
           collection: videos
